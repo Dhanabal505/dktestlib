@@ -17,4 +17,8 @@ public class logger{
     public func libadded(){
         print("Lib added")
     }
+    
+    public func libveradded(){
+        print("Lib version added")
+    }
 }
