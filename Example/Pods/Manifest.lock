@@ -1,7 +1,7 @@
 PODS:
-  - dktestlib (0.1.0):
-    - QKMRZParser
-    - QKMRZScanner
+  - dktestlib (0.1.2):
+    - QKMRZParser (= 2.0.0)
+    - QKMRZScanner (= 3.0.0)
   - QKMRZParser (2.0.0)
   - QKMRZScanner (3.0.0):
     - QKMRZParser (~> 2.0.0)
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dktestlib: f1481097f98fb24d19f53936f612c2e3ea07cd9a
+  dktestlib: bc97013114219a0b21f5d1d4c2e6bc702ad68c06
   QKMRZParser: 6b419b6f07d6bff6b50429b97de10846dc902c29
   QKMRZScanner: cf2348fd6ce441e758328da4adf231ef2b51d769
   SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
