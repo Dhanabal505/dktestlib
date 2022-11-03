@@ -1,0 +1,16 @@
+PODS:
+  - dktestlib (0.1.0)
+
+DEPENDENCIES:
+  - dktestlib (from `../`)
+
+EXTERNAL SOURCES:
+  dktestlib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  dktestlib: 1c17fdc8643535c6b3837b6122320bb9d944144c
+
+PODFILE CHECKSUM: 11d737651e1dadead0813e5adc4d900565b0da29
+
+COCOAPODS: 1.11.3
