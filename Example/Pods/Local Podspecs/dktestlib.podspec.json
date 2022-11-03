@@ -18,5 +18,15 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "dktestlib/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "dktestlib/Classes/**/*",
+  "dependencies": {
+    "QKMRZParser": [
+
+    ],
+    "QKMRZScanner": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

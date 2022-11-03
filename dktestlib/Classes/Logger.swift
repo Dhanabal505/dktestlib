@@ -13,4 +13,8 @@ public class logger{
     public func getprint(){
         print("It is tested")
     }
+    
+    public func libadded(){
+        print("Lib added")
+    }
 }
