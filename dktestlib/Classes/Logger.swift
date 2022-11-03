@@ -21,4 +21,8 @@ public class logger{
     public func libveradded(){
         print("Lib version added")
     }
+    
+    public func libvermoreadded(){
+        print("Lib version more added")
+    }
 }
