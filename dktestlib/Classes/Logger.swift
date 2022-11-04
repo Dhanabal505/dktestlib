@@ -14,15 +14,7 @@ public class logger{
         print("It is tested")
     }
     
-    public func libadded(){
-        print("Lib added")
-    }
-    
-    public func libveradded(){
-        print("Lib version added")
-    }
-    
-    public func libvermoreadded(){
-        print("Lib version more added")
+    public func dependset(){
+        print("Dependence set")
     }
 }

@@ -21,11 +21,8 @@
   "swift_versions": "5.0",
   "source_files": "dktestlib/Classes/**/*",
   "dependencies": {
-    "QKMRZParser": [
-      "~> 2.0.0"
-    ],
     "QKMRZScanner": [
-      "3.0.0"
+      "~> 3.0.0"
     ]
   },
   "swift_version": "5.0"

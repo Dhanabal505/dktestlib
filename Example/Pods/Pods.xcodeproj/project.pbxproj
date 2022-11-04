@@ -12,12 +12,14 @@
 		089E44BA02686D31A8D56AD1D62EE14B /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2263406090657AD028F107F0929A3E99 /* CIImage.swift */; };
 		0CD6763B269134C69EE499E61C22F869 /* CVImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7775CA32E0E0E14D1410227B060B303B /* CVImageBuffer.swift */; };
 		0D921CD73C71B6D461CC8BA2872DD607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B0D3992A85B880D3D78018B66571B3 /* UIKit.framework */; };
+		19F612F7D6B37FAA99EF60CB75940E22 /* dktestlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E54668942BF6403CAA211D6FAC85726E /* dktestlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EEF1CD1728F625D6832CD1871DD8EE6 /* QKCutoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78897F5E87DBC1576A827F3E6AAD57 /* QKCutoutView.swift */; };
 		2220C1671F19A80BC04E33DC90B3A83A /* ResultIteratorLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750A8BC1A959F42D5F5EB957E4C6DDD /* ResultIteratorLevel.swift */; };
 		23093FCEAC010BA1302340B24AFA07AE /* TD1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA3058778A02BE66BD6F589305E7607 /* TD1.swift */; };
 		23ACAA795BE579853C99135CF63CDA71 /* QKMRZScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9DA3897D45BCB866E98EA42346A466 /* QKMRZScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265C0DEFA011D36AECA8CD09FEFC741A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785ACB2CD3D8EECCB5D8F4A19F7A42E2 /* AVFoundation.framework */; };
 		266AFAF42FF74EA25FD3138081F6793E /* Pods-dktestlib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB4B54514105C0AC02E6F4A3A364D8C /* Pods-dktestlib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C5B14E03130149D2091C87D6DBB8A98 /* dktestlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD01C77E276298E74752A3DFC7FC77F /* dktestlib-dummy.m */; };
 		2D5CEFC3FE47D7F9EF8DA078A2A5233A /* AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CDD54DD8A70FB66F69FCE938C2263F /* AVCaptureVideoOrientation.swift */; };
 		313AEB40CE53FD18B093B06121B2E7B4 /* SwiftyTesseract-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC4F5B81BFD5FB28058CD11DED8566E /* SwiftyTesseract-dummy.m */; };
 		3D80D0EE3EFE12E8F1FA64EFA1F5001C /* EngineMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C1D50F85EC880F5711D11C90D4AF9D /* EngineMode.swift */; };
@@ -26,7 +28,6 @@
 		5051A7C45AFD8503C656F6CD79AF61B7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E26912561C3B6BEA9095A8D5E6E9A0 /* AudioToolbox.framework */; };
 		51E5A7817DCC155850554B4FA331C0AE /* TesseractVariableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBEC44CE5E5FAF9AAF23172B927B4C /* TesseractVariableName.swift */; };
 		5FA151D3E662DFB06864F51B4A8E26CA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E19832266D54E713161A75CF4C33EB0 /* CoreImage.framework */; };
-		629995762E862CD3053FCB29F324B045 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169742F8FD86ABA1668B2FAA77C2C82D /* Logger.swift */; };
 		6AC0F50003ABCF9FB23A47D78AFC7852 /* QKMRZScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D3DCB5BF653E50F6F4C751E278E3AE /* QKMRZScanner-dummy.m */; };
 		6B08F453594587DEEBF0735DF4AC6AE5 /* TD3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBFB66312A8D210CAC9DC4DA116B2EE /* TD3.swift */; };
 		6BA893FE84994688993DDBD5057235E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
@@ -34,9 +35,8 @@
 		730028F627A515CEB476DD4932A80EDA /* LanguageModelDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED61DF8D205DCE03670040419227A8 /* LanguageModelDataSource.swift */; };
 		7474BD04CCCB55B5D04BBC3FC3034797 /* TD2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2F6343C35D53E865949CD0226C821 /* TD2.swift */; };
 		78AD3535009ADDFFAB51D9225A70F4B1 /* MRZField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D5CBF94C97B6E286EFEA069D2308C /* MRZField.swift */; };
-		80810BD3C6247815CE5151BE42D2DF68 /* dktestlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E54668942BF6403CAA211D6FAC85726E /* dktestlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84524EE6E4FC6772410A2A09D03FF71D /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169742F8FD86ABA1668B2FAA77C2C82D /* Logger.swift */; };
 		9682F8E7A02CF6932803F574F702D604 /* LanguageStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4BB59DBD11D0488BF5AA86FE2D8C07 /* LanguageStringConverter.swift */; };
-		97D0ADE687987E3D147690FC84FF34D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
 		9C9B071E7F00175D672265FBD1CA68EA /* String-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00D111BC70612561E9143B71F4E995 /* String-Ext.swift */; };
 		9CB317E035BF1390FBC03322582E5649 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A17C1AF46A09B94C15F050ACF1503A0 /* String+Extensions.swift */; };
 		A0587A0FCF9E08BEC681A8E5E13CFA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
@@ -48,7 +48,7 @@
 		AFB23B3B718FFFC367B6E0EAA2AAC4C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
 		B06230586ADBF6DBF12DA854C7CE60E5 /* LuminanceThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C795BADCC4424BDD61829D33A81113 /* LuminanceThresholdFilter.swift */; };
 		B13DA60E52344A453D96A0E6FB761D5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B0D3992A85B880D3D78018B66571B3 /* UIKit.framework */; };
-		C3258F31CD3C9E0DC0A43BF06021D8B9 /* dktestlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD01C77E276298E74752A3DFC7FC77F /* dktestlib-dummy.m */; };
+		B4BC3F8CFE50BA9B6B5E34C4AB4DFBF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746F651D76928E1500B21B47AD5F2E3F /* Foundation.framework */; };
 		CAE6A68B3DD0190EA8FDAAAA57C68ECE /* QKMRZParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8961B1592F512DF663A0E875C23FC4DC /* QKMRZParser.swift */; };
 		D7AF5E0F6D426E03BD275E772195B88D /* SwiftyTesseract-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D59F9F72E2B8E6946F0EC2B07C6C880 /* SwiftyTesseract-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF25543EADC48DF08FF031F8C8AC61BB /* QKMRZResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88315275F1A0D5E172F7250C5782A841 /* QKMRZResult.swift */; };
@@ -77,20 +77,6 @@
 			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
 			remoteInfo = QKMRZParser;
 		};
-		41335E705D77C56AF8C86EE1C5AE744E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6A27FBFB272D0D46BF9B937D5AEEA741;
-			remoteInfo = QKMRZScanner;
-		};
-		4E986DD1CE03ED2042F861D1651D92FF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 44846E5E2172F853B4F70588F8115052;
-			remoteInfo = QKMRZParser;
-		};
 		6E39BB35824FAD7F9F5B29F0A152C770 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -113,6 +99,13 @@
 			remoteInfo = dktestlib;
 		};
 		B1185FEF30504D578E0D7AD845E33E07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A27FBFB272D0D46BF9B937D5AEEA741;
+			remoteInfo = QKMRZScanner;
+		};
+		E822965300F405D306D56A2B6861EE65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -241,11 +234,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		309E0633E91794E8B3B3997D24122099 /* Frameworks */ = {
+		65A381CBDF491050AA05A50F279121D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D0ADE687987E3D147690FC84FF34D9 /* Foundation.framework in Frameworks */,
+				B4BC3F8CFE50BA9B6B5E34C4AB4DFBF6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +536,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		06F43CD42A4AF1366C88F58356DBCF58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F612F7D6B37FAA99EF60CB75940E22 /* dktestlib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F57D76D6A5C18F11B8CE8889888A633 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,14 +557,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AF5E0F6D426E03BD275E772195B88D /* SwiftyTesseract-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7C0063902C822F0FF0044BA1269BF688 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80810BD3C6247815CE5151BE42D2DF68 /* dktestlib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,18 +687,17 @@
 		};
 		C541C0E75474EED28FD825B971588286 /* dktestlib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A75D03D698079DA42A5F6441CD322B4F /* Build configuration list for PBXNativeTarget "dktestlib" */;
+			buildConfigurationList = BC3FA960C8A36502C954546DED9512C1 /* Build configuration list for PBXNativeTarget "dktestlib" */;
 			buildPhases = (
-				7C0063902C822F0FF0044BA1269BF688 /* Headers */,
-				AC0A4040A814CFB070E83676BCA60A26 /* Sources */,
-				309E0633E91794E8B3B3997D24122099 /* Frameworks */,
-				14DDFA0A17130651E88EF69CFF86D4E2 /* Resources */,
+				06F43CD42A4AF1366C88F58356DBCF58 /* Headers */,
+				4CB2AE2C4359E5AECC844A5FE9B678DE /* Sources */,
+				65A381CBDF491050AA05A50F279121D5 /* Frameworks */,
+				0D18A7B7A470693A823FC459D9991B54 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B43D9F545DEA6EE7D33A974F08D0E9F3 /* PBXTargetDependency */,
-				0A464DDA5963C4B2B523CEC0E83BB909 /* PBXTargetDependency */,
+				0199B7181E801F29A9651E1E60797234 /* PBXTargetDependency */,
 			);
 			name = dktestlib;
 			productName = dktestlib;
@@ -745,7 +737,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14DDFA0A17130651E88EF69CFF86D4E2 /* Resources */ = {
+		0D18A7B7A470693A823FC459D9991B54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -848,6 +840,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4CB2AE2C4359E5AECC844A5FE9B678DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B14E03130149D2091C87D6DBB8A98 /* dktestlib-dummy.m in Sources */,
+				84524EE6E4FC6772410A2A09D03FF71D /* Logger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		739B088C39894BF83E93F677B2D436E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -880,23 +881,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC0A4040A814CFB070E83676BCA60A26 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3258F31CD3C9E0DC0A43BF06021D8B9 /* dktestlib-dummy.m in Sources */,
-				629995762E862CD3053FCB29F324B045 /* Logger.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A464DDA5963C4B2B523CEC0E83BB909 /* PBXTargetDependency */ = {
+		0199B7181E801F29A9651E1E60797234 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QKMRZScanner;
 			target = 6A27FBFB272D0D46BF9B937D5AEEA741 /* QKMRZScanner */;
-			targetProxy = 41335E705D77C56AF8C86EE1C5AE744E /* PBXContainerItemProxy */;
+			targetProxy = E822965300F405D306D56A2B6861EE65 /* PBXContainerItemProxy */;
 		};
 		49CDB8666E38D3F0BAEB40AA4A9F15B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -927,12 +919,6 @@
 			name = dktestlib;
 			target = C541C0E75474EED28FD825B971588286 /* dktestlib */;
 			targetProxy = 9FDCC2157F072953A98A5DE5216B4FF2 /* PBXContainerItemProxy */;
-		};
-		B43D9F545DEA6EE7D33A974F08D0E9F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QKMRZParser;
-			target = 44846E5E2172F853B4F70588F8115052 /* QKMRZParser */;
-			targetProxy = 4E986DD1CE03ED2042F861D1651D92FF /* PBXContainerItemProxy */;
 		};
 		CA80F6F9FF2A064E1E40903867F56F94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1013,7 +999,7 @@
 			};
 			name = Debug;
 		};
-		56A9CFAFCDB7B72C1728415D86150E41 /* Debug */ = {
+		5A6080C2C7982D4775BF6FDC821096CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4598F2A834825C94D1B1A314C401BAB /* dktestlib.debug.xcconfig */;
 			buildSettings = {
@@ -1209,6 +1195,39 @@
 			};
 			name = Debug;
 		};
+		991C894AE616DD0134ED844A121A3C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6C29A3EA819A2C95A90F98F8DD6C46 /* dktestlib.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/dktestlib/dktestlib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dktestlib/dktestlib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dktestlib/dktestlib.modulemap";
+				PRODUCT_MODULE_NAME = dktestlib;
+				PRODUCT_NAME = dktestlib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1336,39 +1355,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		BC98A5DE4CA48F95E7D4CE2D7D0267CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F6C29A3EA819A2C95A90F98F8DD6C46 /* dktestlib.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/dktestlib/dktestlib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/dktestlib/dktestlib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/dktestlib/dktestlib.modulemap";
-				PRODUCT_MODULE_NAME = dktestlib;
-				PRODUCT_NAME = dktestlib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D1CC67CF2B88CD6A5EBD89F06F52B1EA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1512,11 +1498,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A75D03D698079DA42A5F6441CD322B4F /* Build configuration list for PBXNativeTarget "dktestlib" */ = {
+		BC3FA960C8A36502C954546DED9512C1 /* Build configuration list for PBXNativeTarget "dktestlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56A9CFAFCDB7B72C1728415D86150E41 /* Debug */,
-				BC98A5DE4CA48F95E7D4CE2D7D0267CC /* Release */,
+				5A6080C2C7982D4775BF6FDC821096CD /* Debug */,
+				991C894AE616DD0134ED844A121A3C8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
