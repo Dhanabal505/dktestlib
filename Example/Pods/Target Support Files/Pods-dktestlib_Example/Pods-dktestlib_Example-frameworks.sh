@@ -177,13 +177,11 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/QKMRZParser/QKMRZParser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QKMRZScanner/QKMRZScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/dktestlib/dktestlib.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/QKMRZParser/QKMRZParser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QKMRZScanner/QKMRZScanner.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/dktestlib/dktestlib.framework"
 fi

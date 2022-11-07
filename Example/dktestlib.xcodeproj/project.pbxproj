@@ -314,14 +314,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dktestlib_Example/Pods-dktestlib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/QKMRZParser/QKMRZParser.framework",
-				"${BUILT_PRODUCTS_DIR}/QKMRZScanner/QKMRZScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyTesseract/SwiftyTesseract.framework",
 				"${BUILT_PRODUCTS_DIR}/dktestlib/dktestlib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QKMRZParser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QKMRZScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTesseract.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/dktestlib.framework",
 			);

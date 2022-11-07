@@ -1,6 +1,6 @@
 {
   "name": "dktestlib",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "summary": "This is my test lib",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Dhanabal505/dktestlib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Dhanabal505/dktestlib.git",
-    "tag": "0.1.3"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "13.0"
@@ -21,8 +21,11 @@
   "swift_versions": "5.0",
   "source_files": "dktestlib/Classes/**/*",
   "dependencies": {
-    "QKMRZScanner": [
-      "~> 3.0.0"
+    "QKMRZParser": [
+      "~> 2.0.0"
+    ],
+    "SwiftyTesseract": [
+      "~> 3.1.3"
     ]
   },
   "swift_version": "5.0"

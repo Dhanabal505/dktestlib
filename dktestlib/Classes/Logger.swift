@@ -17,4 +17,8 @@ public class logger{
     public func dependset(){
         print("Dependence set")
     }
+    
+    public func swiftytesadded(){
+        print("SwiftyTes added")
+    }
 }
