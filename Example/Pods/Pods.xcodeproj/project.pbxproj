@@ -95,7 +95,7 @@
 		07A3A1FF3DF769F0B93A1783B8B780AA /* SwiftyTesseract-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SwiftyTesseract-xcframeworks.sh"; sourceTree = "<group>"; };
 		085A9BA6FB2527C69D809DC696E544B7 /* RecognizedBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecognizedBlock.swift; path = SwiftyTesseract/SwiftyTesseract/Structs/RecognizedBlock.swift; sourceTree = "<group>"; };
 		093063C0093EC9E2601A4093701A5C0D /* MRZField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MRZField.swift; path = QKMRZParser/MRZField.swift; sourceTree = "<group>"; };
-		0B841BAAB7C1406DEDAFBE646AAB1DDD /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
+		0B841BAAB7C1406DEDAFBE646AAB1DDD /* libtesseract.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = libtesseract.xcframework; path = SwiftyTesseract/libtesseract.xcframework; sourceTree = "<group>"; };
 		0BE709268F7888EA927B8241F13E950B /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "SwiftyTesseract/SwiftyTesseract/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
 		0C9842E97E39E46EA0DFE0A90ED9A453 /* Pods-dktestlib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dktestlib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0F17F0E0F3BEA7E0BB56BA906A55C324 /* LanguageStringConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageStringConverter.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageStringConverter.swift; sourceTree = "<group>"; };
@@ -116,11 +116,11 @@
 		5F6C29A3EA819A2C95A90F98F8DD6C46 /* dktestlib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dktestlib.release.xcconfig; sourceTree = "<group>"; };
 		63427E3631E2CF0D78ACC49EF935D736 /* LanguageModelDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageModelDataSource.swift; path = SwiftyTesseract/SwiftyTesseract/Protocols/LanguageModelDataSource.swift; sourceTree = "<group>"; };
 		64FAA583FC1A227218662750DF532813 /* SwiftyTesseract-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-prefix.pch"; sourceTree = "<group>"; };
-		661737390D97FB879A7B19F5B4FFA918 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		69AB3FA84556476D9DB2EA2FBE8EB04B /* Pods-dktestlib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-dktestlib_Tests"; path = Pods_dktestlib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		661737390D97FB879A7B19F5B4FFA918 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69AB3FA84556476D9DB2EA2FBE8EB04B /* Pods_dktestlib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dktestlib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2D0EA7B2399CD05CC7203F2C9AD3C9 /* SwiftyTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTesseract.debug.xcconfig; sourceTree = "<group>"; };
-		6C395F8D9E0D569B02A7FB866B457060 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7172A239B57D511CA01C275523C94CD5 /* Pods-dktestlib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-dktestlib_Example"; path = Pods_dktestlib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C395F8D9E0D569B02A7FB866B457060 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7172A239B57D511CA01C275523C94CD5 /* Pods_dktestlib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dktestlib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72198B91FEC1C241245DEF5266725C02 /* Pods-dktestlib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dktestlib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		74AECDB56EC95C1AD5C27D11EF1156CB /* SwiftyTesseract.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTesseract.modulemap; sourceTree = "<group>"; };
 		76CAED26577AD7C4BE8953D95DEFB325 /* SwiftyTesseract-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTesseract-umbrella.h"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		9304A54D987F53CAB698DFC72751B44F /* QKMRZParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QKMRZParser.modulemap; sourceTree = "<group>"; };
 		94B428BCB28DD0F94B576A1C11F09AC5 /* Pods-dktestlib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dktestlib_Tests-Info.plist"; sourceTree = "<group>"; };
 		963702F351DA25F3C69B31FD8A8AAAB6 /* dktestlib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "dktestlib-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E034F665D96DDBA8965F78307CD82B3 /* Pods-dktestlib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dktestlib_Example-dummy.m"; sourceTree = "<group>"; };
 		9EA18D5AB0841FCEC8F275B19A160C47 /* Pods-dktestlib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dktestlib_Tests.modulemap"; sourceTree = "<group>"; };
 		A4598F2A834825C94D1B1A314C401BAB /* dktestlib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dktestlib.debug.xcconfig; sourceTree = "<group>"; };
@@ -158,8 +158,8 @@
 		E1CB343D5C0B50EFDB3E331D026DC746 /* Pods-dktestlib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dktestlib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E54668942BF6403CAA211D6FAC85726E /* dktestlib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dktestlib-umbrella.h"; sourceTree = "<group>"; };
 		E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QKMRZParser; path = QKMRZParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E953A7BAF12BAD1514C56A27AD36936E /* dktestlib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = dktestlib; path = dktestlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA3C2010002F8F7AFC0E38EA8F5E1B64 /* dktestlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = dktestlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E953A7BAF12BAD1514C56A27AD36936E /* dktestlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = dktestlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C2010002F8F7AFC0E38EA8F5E1B64 /* dktestlib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = dktestlib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTesseract; path = SwiftyTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8EDB52D5AA6A33DA47E2CB09472FB24 /* SwiftyTesseract-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTesseract-dummy.m"; sourceTree = "<group>"; };
@@ -263,9 +263,9 @@
 		318D718C554A213558502B475D53E282 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E953A7BAF12BAD1514C56A27AD36936E /* dktestlib */,
-				7172A239B57D511CA01C275523C94CD5 /* Pods-dktestlib_Example */,
-				69AB3FA84556476D9DB2EA2FBE8EB04B /* Pods-dktestlib_Tests */,
+				E953A7BAF12BAD1514C56A27AD36936E /* dktestlib.framework */,
+				7172A239B57D511CA01C275523C94CD5 /* Pods_dktestlib_Example.framework */,
+				69AB3FA84556476D9DB2EA2FBE8EB04B /* Pods_dktestlib_Tests.framework */,
 				E551F26557EE13A98FB2F8D868D7ABF8 /* QKMRZParser */,
 				F6E3B8BC238866073523ED9347EED4C6 /* SwiftyTesseract */,
 			);
@@ -293,7 +293,6 @@
 				C9B65DAFA1AF57CBE4BF17617B6B440A /* TD3.swift */,
 				1B4994BDD9D7FB5414000EF44A2161ED /* Support Files */,
 			);
-			name = QKMRZParser;
 			path = QKMRZParser;
 			sourceTree = "<group>";
 		};
@@ -339,7 +338,6 @@
 				BE6119ACF001181D8195957D2C13CDEC /* Frameworks */,
 				1045FBB312C2C528F5F1F44ECAAC0657 /* Support Files */,
 			);
-			name = SwiftyTesseract;
 			path = SwiftyTesseract;
 			sourceTree = "<group>";
 		};
@@ -487,7 +485,7 @@
 			);
 			name = "Pods-dktestlib_Tests";
 			productName = Pods_dktestlib_Tests;
-			productReference = 69AB3FA84556476D9DB2EA2FBE8EB04B /* Pods-dktestlib_Tests */;
+			productReference = 69AB3FA84556476D9DB2EA2FBE8EB04B /* Pods_dktestlib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		44846E5E2172F853B4F70588F8115052 /* QKMRZParser */ = {
@@ -545,7 +543,7 @@
 			);
 			name = "Pods-dktestlib_Example";
 			productName = Pods_dktestlib_Example;
-			productReference = 7172A239B57D511CA01C275523C94CD5 /* Pods-dktestlib_Example */;
+			productReference = 7172A239B57D511CA01C275523C94CD5 /* Pods_dktestlib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C541C0E75474EED28FD825B971588286 /* dktestlib */ = {
@@ -565,7 +563,7 @@
 			);
 			name = dktestlib;
 			productName = dktestlib;
-			productReference = E953A7BAF12BAD1514C56A27AD36936E /* dktestlib */;
+			productReference = E953A7BAF12BAD1514C56A27AD36936E /* dktestlib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1081,8 +1079,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

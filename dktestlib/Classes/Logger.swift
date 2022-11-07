@@ -14,11 +14,7 @@ public class logger{
         print("It is tested")
     }
     
-    public func dependset(){
-        print("Dependence set")
-    }
-    
-    public func swiftytesadded(){
-        print("SwiftyTes added")
+    public func onlyswiftytesadded(){
+        print("Only SwiftyTes added")
     }
 }
