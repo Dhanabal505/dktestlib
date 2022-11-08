@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'dktestlib'
-  s.version          = '0.1.7'
+  s.version          = '0.1.9'
   s.summary          = 'This is my test lib'
 
   s.description      = <<-DESC
@@ -34,7 +34,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  # s.dependency "QKMRZParser", "~> 2.0.0"
-  #s.dependency "SwiftyTesseract", "~> 3.1.3"
+  s.dependency "QKMRZParser", "~> 2.0.0"
+  s.dependency "SwiftyTesseract", "~> 3.1.3"
   s.dependency 'Alamofire','~> 4.9'
+  s.dependency 'TinyConstraints', '~> 4.0.0'
 end

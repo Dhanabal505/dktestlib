@@ -1,7 +1,13 @@
 PODS:
   - Alamofire (4.9.1)
-  - dktestlib (0.1.7):
+  - dktestlib (0.1.9):
     - Alamofire (~> 4.9)
+    - QKMRZParser (~> 2.0.0)
+    - SwiftyTesseract (~> 3.1.3)
+    - TinyConstraints (~> 4.0.0)
+  - QKMRZParser (2.0.0)
+  - SwiftyTesseract (3.1.3)
+  - TinyConstraints (4.0.2)
 
 DEPENDENCIES:
   - dktestlib (from `../`)
@@ -9,6 +15,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - QKMRZParser
+    - SwiftyTesseract
+    - TinyConstraints
 
 EXTERNAL SOURCES:
   dktestlib:
@@ -16,7 +25,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  dktestlib: 0a7dc4608605b57c37bb413542a01653a3c840f9
+  dktestlib: 4f412df123079c867ce3fea163fdfd864fd5d25e
+  QKMRZParser: 6b419b6f07d6bff6b50429b97de10846dc902c29
+  SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
 
 PODFILE CHECKSUM: 11d737651e1dadead0813e5adc4d900565b0da29
 

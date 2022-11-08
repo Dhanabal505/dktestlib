@@ -14,7 +14,7 @@ public class logger{
         print("It is tested")
     }
     
-    public func TinyAdded(){
-        print("Tiny Added")
+    public func ForPublish(){
+        print("Publish Done")
     }
 }
