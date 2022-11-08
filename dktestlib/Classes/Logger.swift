@@ -14,7 +14,7 @@ public class logger{
         print("It is tested")
     }
     
-    public func Alamofireadd(){
-        print("Alamofire was added")
+    public func TinyAdded(){
+        print("Tiny Added")
     }
 }
