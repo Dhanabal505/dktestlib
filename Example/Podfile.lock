@@ -1,22 +1,22 @@
 PODS:
-  - dktestlib (0.1.6):
-    - SwiftyTesseract (~> 3.1.3)
-  - SwiftyTesseract (3.1.3)
+  - Alamofire (4.9.1)
+  - dktestlib (0.1.7):
+    - Alamofire (~> 4.9)
 
 DEPENDENCIES:
   - dktestlib (from `../`)
 
 SPEC REPOS:
   trunk:
-    - SwiftyTesseract
+    - Alamofire
 
 EXTERNAL SOURCES:
   dktestlib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  dktestlib: 70f559455556151582907f82f28cc95fb57c992b
-  SwiftyTesseract: 1f3d96668ae92dc2208d9842c8a59bea9fad2cbb
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  dktestlib: 0a7dc4608605b57c37bb413542a01653a3c840f9
 
 PODFILE CHECKSUM: 11d737651e1dadead0813e5adc4d900565b0da29
 

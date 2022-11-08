@@ -14,7 +14,7 @@ public class logger{
         print("It is tested")
     }
     
-    public func onlyswiftytesadded(){
-        print("Only SwiftyTes added")
+    public func Alamofireadd(){
+        print("Alamofire was added")
     }
 }
